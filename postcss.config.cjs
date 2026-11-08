@@ -1,4 +1,3 @@
-// PostCSS-configuratie die Mantine aanraadt (maakt o.a. breakpoints en light/dark mixins mogelijk in CSS).
 module.exports = {
   plugins: {
     'postcss-preset-mantine': {},

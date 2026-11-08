@@ -6,8 +6,6 @@ import FavoritesPage from './pages/FavoritesPage.tsx'
 import HomePage from './pages/HomePage.tsx'
 import NotFoundPage from './pages/NotFoundPage.tsx'
 
-// Alle routes van de app. De Layout is de "ouder": die toont de navigatie,
-// en via <Outlet /> wordt de pagina van de huidige route erin getoond.
 const router = createBrowserRouter([
   {
     path: '/',

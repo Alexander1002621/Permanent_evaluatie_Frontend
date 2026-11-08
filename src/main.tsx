@@ -1,4 +1,3 @@
-// De CSS van Mantine moet één keer geïmporteerd worden, vóór onze eigen CSS.
 import '@mantine/core/styles.css'
 import './index.css'
 
@@ -8,10 +7,8 @@ import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
 import App from './App.tsx'
 
-// Eén QueryClient voor de hele app: die bewaart de cache van alle TanStack Query-calls.
 const queryClient = new QueryClient()
 
-// Het Mantine-thema: hier kies je de hoofdkleur, lettertypes, afrondingen, ...
 const theme = createTheme({
   primaryColor: 'green',
   defaultRadius: 'md',
