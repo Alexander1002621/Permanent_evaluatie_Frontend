@@ -1,8 +1,9 @@
 import {Anchor, AppShell, Burger, Group, Title} from '@mantine/core'
 import {useDisclosure} from '@mantine/hooks'
 import type {FunctionComponent} from 'react'
-import {Link, Outlet} from 'react-router'
-import MainNav from './MainNav.tsx'
+import {Link} from 'react-router'
+import Navbar from '../navigation/navbar.tsx'
+import Routing from '../navigation/routing.tsx'
 
 const Layout: FunctionComponent = () => {
   const [opened, {toggle, close}] = useDisclosure(false)
@@ -19,11 +20,11 @@ const Layout: FunctionComponent = () => {
       </AppShell.Header>
 
       <AppShell.Navbar p="sm">
-        <MainNav onNavigate={close} />
+        <Navbar onNavigate={close} />
       </AppShell.Navbar>
 
       <AppShell.Main>
-        <Outlet />
+        <Routing />
       </AppShell.Main>
     </AppShell>
   )

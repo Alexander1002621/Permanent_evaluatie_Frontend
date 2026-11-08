@@ -1,0 +1,18 @@
+[
+  {"id": 1, "name": "Club Brugge", "country": "België", "league": "Jupiler Pro League", "stadium": "Jan Breydelstadion", "founded": 1891},
+  {"id": 2, "name": "RSC Anderlecht", "country": "België", "league": "Jupiler Pro League", "stadium": "Lotto Park", "founded": 1908},
+  {"id": 3, "name": "KRC Genk", "country": "België", "league": "Jupiler Pro League", "stadium": "Cegeka Arena", "founded": 1988},
+  {"id": 4, "name": "Royal Antwerp FC", "country": "België", "league": "Jupiler Pro League", "stadium": "Bosuilstadion", "founded": 1880},
+  {"id": 5, "name": "Ajax", "country": "Nederland", "league": "Eredivisie", "stadium": "Johan Cruijff ArenA", "founded": 1900},
+  {"id": 6, "name": "PSV", "country": "Nederland", "league": "Eredivisie", "stadium": "Philips Stadion", "founded": 1913},
+  {"id": 7, "name": "Feyenoord", "country": "Nederland", "league": "Eredivisie", "stadium": "De Kuip", "founded": 1908},
+  {"id": 8, "name": "Manchester United", "country": "Engeland", "league": "Premier League", "stadium": "Old Trafford", "founded": 1878},
+  {"id": 9, "name": "Liverpool", "country": "Engeland", "league": "Premier League", "stadium": "Anfield", "founded": 1892},
+  {"id": 10, "name": "Arsenal", "country": "Engeland", "league": "Premier League", "stadium": "Emirates Stadium", "founded": 1886},
+  {"id": 11, "name": "Real Madrid", "country": "Spanje", "league": "La Liga", "stadium": "Santiago Bernabeu", "founded": 1902},
+  {"id": 12, "name": "FC Barcelona", "country": "Spanje", "league": "La Liga", "stadium": "Spotify Camp Nou", "founded": 1899},
+  {"id": 13, "name": "Bayern Munchen", "country": "Duitsland", "league": "Bundesliga", "stadium": "Allianz Arena", "founded": 1900},
+  {"id": 14, "name": "Borussia Dortmund", "country": "Duitsland", "league": "Bundesliga", "stadium": "Signal Iduna Park", "founded": 1909},
+  {"id": 15, "name": "Juventus", "country": "Italie", "league": "Serie A", "stadium": "Allianz Stadium", "founded": 1897},
+  {"id": 16, "name": "AC Milan", "country": "Italie", "league": "Serie A", "stadium": "San Siro", "founded": 1899}
+]

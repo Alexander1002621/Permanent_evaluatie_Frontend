@@ -2,7 +2,7 @@ import {Button, Container, Text, Title} from '@mantine/core'
 import type {FunctionComponent} from 'react'
 import {Link} from 'react-router'
 
-const NotFoundPage: FunctionComponent = () => {
+const PageNotFound: FunctionComponent = () => {
   return (
     <Container>
       <Title order={1}>Pagina niet gevonden</Title>
@@ -14,4 +14,4 @@ const NotFoundPage: FunctionComponent = () => {
   )
 }
 
-export default NotFoundPage
+export default PageNotFound
